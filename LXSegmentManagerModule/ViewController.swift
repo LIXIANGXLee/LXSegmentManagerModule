@@ -14,9 +14,7 @@ class ViewController: UIViewController {
 override func viewDidLoad() {
     super.viewDidLoad()
            
-           // 1.标题
-           //        let titles = ["游戏", "娱乐娱", "趣玩", "美女", "颜值"]
-           let titles = ["游戏", "娱乐娱乐", "趣玩", "美女", "颜值","视频","音乐"]
+           let titles = ["游戏", "娱乐娱乐", "趣玩", "文章", "颜值","视频","音乐"]
            var style = TitleStyle()
            style.isScrollEnable = true
            style.isShowScrollLine = true
