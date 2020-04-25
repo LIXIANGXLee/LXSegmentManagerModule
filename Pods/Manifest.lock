@@ -1,0 +1,20 @@
+PODS:
+  - LXSegmentManager (0.1.0):
+    - LXSegmentManager/LXColorManager (= 0.1.0)
+    - LXSegmentManager/LXSegment (= 0.1.0)
+  - LXSegmentManager/LXColorManager (0.1.0)
+  - LXSegmentManager/LXSegment (0.1.0)
+
+DEPENDENCIES:
+  - LXSegmentManager (from `./`)
+
+EXTERNAL SOURCES:
+  LXSegmentManager:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  LXSegmentManager: af4eb7a83b13943ec95ec9018158df535a143601
+
+PODFILE CHECKSUM: 63080459bf33ee1b515965cf3742d1c37971d1d9
+
+COCOAPODS: 1.9.1

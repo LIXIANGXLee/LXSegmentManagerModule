@@ -1,0 +1,6 @@
+framework module LXSegmentManager {
+  umbrella header "LXSegmentManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
