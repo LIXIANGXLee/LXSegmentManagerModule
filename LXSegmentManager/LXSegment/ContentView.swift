@@ -41,6 +41,7 @@ public class ContentView: UIView {
         collectionView.scrollsToTop = false
         collectionView.showsHorizontalScrollIndicator = false
         
+
         return collectionView
     }()
     

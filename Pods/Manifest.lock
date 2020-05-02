@@ -1,20 +1,23 @@
 PODS:
-  - LXSegmentManager (0.1.0):
-    - LXSegmentManager/LXColorManager (= 0.1.0)
-    - LXSegmentManager/LXSegment (= 0.1.0)
-  - LXSegmentManager/LXColorManager (0.1.0)
-  - LXSegmentManager/LXSegment (0.1.0)
+  - LXColorManager (1.0.0)
+  - LXSegmentManager (0.1.1):
+    - LXColorManager
 
 DEPENDENCIES:
   - LXSegmentManager (from `./`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - LXColorManager
 
 EXTERNAL SOURCES:
   LXSegmentManager:
     :path: "./"
 
 SPEC CHECKSUMS:
-  LXSegmentManager: af4eb7a83b13943ec95ec9018158df535a143601
+  LXColorManager: 1e3b3cf605777e0f78eaa4a34ab280eb83c69eb7
+  LXSegmentManager: 95846250d0f2478d72e6da0ecce3d33215f76a09
 
-PODFILE CHECKSUM: 63080459bf33ee1b515965cf3742d1c37971d1d9
+PODFILE CHECKSUM: ee788b61eaeca3069571aea2f2c13b970084f6d4
 
 COCOAPODS: 1.9.1

@@ -7,110 +7,128 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		037807718ACA9210675A7BAD8B343B87 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032C3FAAE940914F63CFA66FC8D34D1 /* TitleView.swift */; };
-		18379231429ED9BF4448D54E130D1C34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2E125BB97FD3C1010905BF67774FA86E /* LXSegmentManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C46AB7B93A8F78A6C390F4448975B9C /* LXSegmentManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EB4C016890AA76A3B6BEF92797E49A4 /* LXSegmentManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FC96E76019B24CDE3D68D3C2CAE44 /* LXSegmentManager-dummy.m */; };
-		5793FD80B23CFC44BB7BA63A7C0B406C /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F20E228E46409468DBE3DA5C58F4C5 /* PageView.swift */; };
-		B24EBB238CB11B928E79D210662C4AEA /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099864219D83C2E8387AA9F203CF0171 /* UIColor+Extension.swift */; };
-		BEE2110C03A7CF98449B5B4F9536A190 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C5557C88A655DE12AA39BDB55CA33412 /* Pods-LXSegmentManagerModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2078E8C727D242A7055C624FD6278CAF /* Pods-LXSegmentManagerModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3A067C3078D5E2CE585E7798CC19FD6 /* Pods-LXSegmentManagerModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE5DE0975D3001BF53C524BFF785E64 /* Pods-LXSegmentManagerModule-dummy.m */; };
-		E84B634FA81B00BD1C019C1BF9C4BA89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE9763A1690D186165C776DF968AF48 /* ContentView.swift */; };
-		FFA26421DC851E983F9BF8D0B61AF23F /* TitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB76F8B3D39C8E5AA391342E9FF7CE /* TitleStyle.swift */; };
+		0655C4693F7589816710F1AAC6AD4934 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732CDF1854EF46F7CB0B050BF399F9C1 /* ContentView.swift */; };
+		0799A6A20D0BCD4C309B161798FA52D8 /* LXSegmentManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38320C97E2D80D4BC2A0555FF8041732 /* LXSegmentManager-dummy.m */; };
+		10EB8BF46F67766B0BB8E8DEDE1B037F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD83496768D9270F4C9C211078EABAEC /* Foundation.framework */; };
+		28AE0905F3C19B1FB5DDDA58BBC89C96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD83496768D9270F4C9C211078EABAEC /* Foundation.framework */; };
+		352A4BC5C317AE38BE9BCE57FBAFEF06 /* LXColorManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6D6494107EC696879BAC75ABFB11FB /* LXColorManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AFE45FBE9E5AF52B16477005A43AB54 /* LXColorManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55452F422FDD259CC51275334DD3B7F6 /* LXColorManager-dummy.m */; };
+		55716F26ED993C541E05EA6C9DB47A60 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AF9AE38492F9862B4A63B37346CD25 /* TitleView.swift */; };
+		63BC16EB837215A8B9A2F89EC760DFF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD83496768D9270F4C9C211078EABAEC /* Foundation.framework */; };
+		648A7B8A45D81070610B7F8C7E3C68EF /* LXUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CFCE7F28CE6881D4CE76A51DA376DA /* LXUIColorExtension.swift */; };
+		6D6245B8A5B8B96F61791248D37A9EA6 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3F99825956998DA22E23DDA6D40F88 /* PageView.swift */; };
+		8B24D6B155348FC0F0AC6C803485B748 /* LXColorManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A92D3824A8231643B7672AA6FE9EBC5 /* LXColorManager.framework */; };
+		8E3D6FACCA55C5FEDF8C371518858EEC /* Pods-LXSegmentManagerModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2078E8C727D242A7055C624FD6278CAF /* Pods-LXSegmentManagerModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98D17FDB6398B956E733137096197BD0 /* TitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2FE9A446C06FF2D52082600C15073E /* TitleStyle.swift */; };
+		9D5F958CFDD0733D1BD13A87F8AAA608 /* LXSegmentManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B10A9188C82E79BA8F49194F42BF57AE /* LXSegmentManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA30DB2B2C9EB97B4706C29F35BD4FA4 /* Pods-LXSegmentManagerModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE5DE0975D3001BF53C524BFF785E64 /* Pods-LXSegmentManagerModule-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B475D40C4F7E6B6AD9F472CBB96B7FE7 /* PBXContainerItemProxy */ = {
+		173A915C99322284E4C4355B16F436C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7839D5AE4B3B4FB54245F6CC23BE01D;
+			remoteInfo = LXColorManager;
+		};
+		6B5441524CF561A08F3D807B639D0161 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3C086DD932B6622A27B924513AB4CC79;
 			remoteInfo = LXSegmentManager;
 		};
+		C5D19183FCF3EF77BB1BCA40807C993C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7839D5AE4B3B4FB54245F6CC23BE01D;
+			remoteInfo = LXColorManager;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		087413FF12A4D8F4A70C67E3DA961AFC /* Pods_LXSegmentManagerModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXSegmentManagerModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		099864219D83C2E8387AA9F203CF0171 /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "LXSegmentManager/LXColor/UIColor+Extension.swift"; sourceTree = "<group>"; };
-		0D50A61349902E7F344DA05F8FF0329C /* LXSegmentManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXSegmentManager.debug.xcconfig; sourceTree = "<group>"; };
-		1AE9763A1690D186165C776DF968AF48 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = LXSegmentManager/LXSegment/ContentView.swift; sourceTree = "<group>"; };
+		087413FF12A4D8F4A70C67E3DA961AFC /* Pods_LXSegmentManagerModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LXSegmentManagerModule.framework; path = "Pods-LXSegmentManagerModule.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3F99825956998DA22E23DDA6D40F88 /* PageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageView.swift; path = LXSegmentManager/LXSegment/PageView.swift; sourceTree = "<group>"; };
 		2078E8C727D242A7055C624FD6278CAF /* Pods-LXSegmentManagerModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXSegmentManagerModule-umbrella.h"; sourceTree = "<group>"; };
 		21CA4C9B1BFA09DBA31183085FFDDD79 /* Pods-LXSegmentManagerModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXSegmentManagerModule.modulemap"; sourceTree = "<group>"; };
-		24F20E228E46409468DBE3DA5C58F4C5 /* PageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageView.swift; path = LXSegmentManager/LXSegment/PageView.swift; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3C46AB7B93A8F78A6C390F4448975B9C /* LXSegmentManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXSegmentManager-umbrella.h"; sourceTree = "<group>"; };
-		4032C3FAAE940914F63CFA66FC8D34D1 /* TitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TitleView.swift; path = LXSegmentManager/LXSegment/TitleView.swift; sourceTree = "<group>"; };
-		584B1DB242CE0F5F391E4E4FF1525658 /* LXSegmentManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LXSegmentManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		380197759C9C50C46B5A4067A5063692 /* LXColorManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXColorManager.debug.xcconfig; sourceTree = "<group>"; };
+		38320C97E2D80D4BC2A0555FF8041732 /* LXSegmentManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXSegmentManager-dummy.m"; sourceTree = "<group>"; };
+		3C2FE9A446C06FF2D52082600C15073E /* TitleStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TitleStyle.swift; path = LXSegmentManager/LXSegment/TitleStyle.swift; sourceTree = "<group>"; };
+		522F1E68AE3B7C1D3F7915A264C2155C /* LXSegmentManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXSegmentManager-prefix.pch"; sourceTree = "<group>"; };
+		55452F422FDD259CC51275334DD3B7F6 /* LXColorManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXColorManager-dummy.m"; sourceTree = "<group>"; };
+		584B1DB242CE0F5F391E4E4FF1525658 /* LXSegmentManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LXSegmentManager.framework; path = LXSegmentManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A06C19516DEBAA4C69CA8CA4323EBC2 /* Pods-LXSegmentManagerModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXSegmentManagerModule-Info.plist"; sourceTree = "<group>"; };
-		773A56BBE1C2334D8F0EB20B103837C5 /* LXSegmentManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXSegmentManager.release.xcconfig; sourceTree = "<group>"; };
+		5A78E8AD364C6F091BEB2C3925BFA347 /* LXSegmentManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXSegmentManager.debug.xcconfig; sourceTree = "<group>"; };
+		5B0C8F9DEC8D243401112EAF86059A2E /* LXSegmentManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXSegmentManager.modulemap; sourceTree = "<group>"; };
+		656AF4E822EB763370E29FE70689F496 /* LXSegmentManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LXSegmentManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		66CFCE7F28CE6881D4CE76A51DA376DA /* LXUIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LXUIColorExtension.swift; path = LXColorManager/LXUIColorExtension.swift; sourceTree = "<group>"; };
+		6A18973E5095266E386A464A75F0F477 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6A92D3824A8231643B7672AA6FE9EBC5 /* LXColorManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LXColorManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		732CDF1854EF46F7CB0B050BF399F9C1 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = LXSegmentManager/LXSegment/ContentView.swift; sourceTree = "<group>"; };
 		8140FF646360AF251913433B2FFB90EB /* Pods-LXSegmentManagerModule-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXSegmentManagerModule-acknowledgements.markdown"; sourceTree = "<group>"; };
 		849B3A17FC10D033B6A467F2CA2F3F9C /* Pods-LXSegmentManagerModule-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXSegmentManagerModule-frameworks.sh"; sourceTree = "<group>"; };
 		8924C77BA18E8291C7A2655C6E7DAFBE /* Pods-LXSegmentManagerModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXSegmentManagerModule.release.xcconfig"; sourceTree = "<group>"; };
-		8B4FC96E76019B24CDE3D68D3C2CAE44 /* LXSegmentManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXSegmentManager-dummy.m"; sourceTree = "<group>"; };
-		9CF12509D960D261DF7EA77C9C0D9520 /* LXSegmentManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LXSegmentManager.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ACDB76F8B3D39C8E5AA391342E9FF7CE /* TitleStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TitleStyle.swift; path = LXSegmentManager/LXSegment/TitleStyle.swift; sourceTree = "<group>"; };
-		B4F77C1528125163D1CC8DF4B752846A /* LXSegmentManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXSegmentManager-Info.plist"; sourceTree = "<group>"; };
+		9269C2F4940C2F2124E123139FB28702 /* LXSegmentManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXSegmentManager-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A344B175D16EC6C812A453EC4B120CC0 /* LXColorManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXColorManager.modulemap; sourceTree = "<group>"; };
+		B10A9188C82E79BA8F49194F42BF57AE /* LXSegmentManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXSegmentManager-umbrella.h"; sourceTree = "<group>"; };
+		B3E3B6263C7488CFF67398095582F371 /* LXColorManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXColorManager.release.xcconfig; sourceTree = "<group>"; };
+		BB6D6494107EC696879BAC75ABFB11FB /* LXColorManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXColorManager-umbrella.h"; sourceTree = "<group>"; };
 		BB9C60DEF51685FDDD9CDA5A60EF9749 /* Pods-LXSegmentManagerModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXSegmentManagerModule.debug.xcconfig"; sourceTree = "<group>"; };
-		CACA1138B2D4C1B7E17DFD9D0641A7F9 /* LXSegmentManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXSegmentManager-prefix.pch"; sourceTree = "<group>"; };
-		CF1442F824965C47DCDC3391340C4CE2 /* LXSegmentManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXSegmentManager.modulemap; sourceTree = "<group>"; };
+		C5141AB7B9B245C0E06318FE4D6C4CC0 /* LXColorManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXColorManager-Info.plist"; sourceTree = "<group>"; };
+		DD83496768D9270F4C9C211078EABAEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E37ECDC892D69E43C265CF1DB6AFECBA /* Pods-LXSegmentManagerModule-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXSegmentManagerModule-acknowledgements.plist"; sourceTree = "<group>"; };
+		E617B18E3B0E61B28E9C6F3741234F3E /* LXSegmentManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXSegmentManager.release.xcconfig; sourceTree = "<group>"; };
+		E8AF9AE38492F9862B4A63B37346CD25 /* TitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TitleView.swift; path = LXSegmentManager/LXSegment/TitleView.swift; sourceTree = "<group>"; };
 		FCE5DE0975D3001BF53C524BFF785E64 /* Pods-LXSegmentManagerModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXSegmentManagerModule-dummy.m"; sourceTree = "<group>"; };
+		FD5FAF1241F49BDC2B29F52CEE7FB18C /* LXColorManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXColorManager-prefix.pch"; sourceTree = "<group>"; };
+		FD7707783F26052089FC044A21940D16 /* LXColorManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LXColorManager.framework; path = LXColorManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A184AC19BF6C46983E573BCF666E7E77 /* Frameworks */ = {
+		8B53D444AD36E7C6A6B3BDDB17DAF717 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18379231429ED9BF4448D54E130D1C34 /* Foundation.framework in Frameworks */,
+				28AE0905F3C19B1FB5DDDA58BBC89C96 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF96E4C1C406960518A797E615C9E165 /* Frameworks */ = {
+		A9B5624F0AFE6E050646E140F3E83757 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE2110C03A7CF98449B5B4F9536A190 /* Foundation.framework in Frameworks */,
+				10EB8BF46F67766B0BB8E8DEDE1B037F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A56F14488111B83F17E15F9E21C002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BC16EB837215A8B9A2F89EC760DFF0 /* Foundation.framework in Frameworks */,
+				8B24D6B155348FC0F0AC6C803485B748 /* LXColorManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		001DDE19DD4328B68EDB18426F67A4A2 /* Support Files */ = {
+		00FBCF7C94D5798A24FFB85225130FD0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CF1442F824965C47DCDC3391340C4CE2 /* LXSegmentManager.modulemap */,
-				8B4FC96E76019B24CDE3D68D3C2CAE44 /* LXSegmentManager-dummy.m */,
-				B4F77C1528125163D1CC8DF4B752846A /* LXSegmentManager-Info.plist */,
-				CACA1138B2D4C1B7E17DFD9D0641A7F9 /* LXSegmentManager-prefix.pch */,
-				3C46AB7B93A8F78A6C390F4448975B9C /* LXSegmentManager-umbrella.h */,
-				0D50A61349902E7F344DA05F8FF0329C /* LXSegmentManager.debug.xcconfig */,
-				773A56BBE1C2334D8F0EB20B103837C5 /* LXSegmentManager.release.xcconfig */,
+				A344B175D16EC6C812A453EC4B120CC0 /* LXColorManager.modulemap */,
+				55452F422FDD259CC51275334DD3B7F6 /* LXColorManager-dummy.m */,
+				C5141AB7B9B245C0E06318FE4D6C4CC0 /* LXColorManager-Info.plist */,
+				FD5FAF1241F49BDC2B29F52CEE7FB18C /* LXColorManager-prefix.pch */,
+				BB6D6494107EC696879BAC75ABFB11FB /* LXColorManager-umbrella.h */,
+				380197759C9C50C46B5A4067A5063692 /* LXColorManager.debug.xcconfig */,
+				B3E3B6263C7488CFF67398095582F371 /* LXColorManager.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Pods/Target Support Files/LXSegmentManager";
-			sourceTree = "<group>";
-		};
-		28C8F007ACEDAE3DB66CD0AC1485EB53 /* LXColorManager */ = {
-			isa = PBXGroup;
-			children = (
-				099864219D83C2E8387AA9F203CF0171 /* UIColor+Extension.swift */,
-			);
-			name = LXColorManager;
-			sourceTree = "<group>";
-		};
-		362562F885B5105CB059E7EA313C0657 /* LXSegment */ = {
-			isa = PBXGroup;
-			children = (
-				1AE9763A1690D186165C776DF968AF48 /* ContentView.swift */,
-				24F20E228E46409468DBE3DA5C58F4C5 /* PageView.swift */,
-				ACDB76F8B3D39C8E5AA391342E9FF7CE /* TitleStyle.swift */,
-				4032C3FAAE940914F63CFA66FC8D34D1 /* TitleView.swift */,
-			);
-			name = LXSegment;
+			path = "../Target Support Files/LXColorManager";
 			sourceTree = "<group>";
 		};
 		426AB34F18F85F1287DB046D88523A99 /* Pods-LXSegmentManagerModule */ = {
@@ -130,24 +148,30 @@
 			path = "Target Support Files/Pods-LXSegmentManagerModule";
 			sourceTree = "<group>";
 		};
-		8747DF7064CFECF899FAE20047EC15A0 /* LXSegmentManager */ = {
+		5378A749D80F6DD302E5C53F79B5258E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				28C8F007ACEDAE3DB66CD0AC1485EB53 /* LXColorManager */,
-				362562F885B5105CB059E7EA313C0657 /* LXSegment */,
-				8771701766E5184F59036B1867BA24FE /* Pod */,
-				001DDE19DD4328B68EDB18426F67A4A2 /* Support Files */,
+				DD83496768D9270F4C9C211078EABAEC /* Foundation.framework */,
 			);
-			name = LXSegmentManager;
-			path = ..;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		8771701766E5184F59036B1867BA24FE /* Pod */ = {
+		79A9B76872F53E838728F96528A6CA45 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9CF12509D960D261DF7EA77C9C0D9520 /* LXSegmentManager.podspec */,
+				DA9AEE0831A61A14C701701DF10AB73E /* LXColorManager */,
 			);
-			name = Pod;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8916944771DE99EC1318A9D7B818290E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD7707783F26052089FC044A21940D16 /* LXColorManager.framework */,
+				584B1DB242CE0F5F391E4E4FF1525658 /* LXSegmentManager.framework */,
+				087413FF12A4D8F4A70C67E3DA961AFC /* Pods_LXSegmentManagerModule.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		8C37345271AB5DDDEBA5D48B4AC990EB /* Targets Support Files */ = {
@@ -158,66 +182,107 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C04BE7221232002365FDC7D402799C72 /* Products */ = {
+		BD2EB50074C56ADCCABB1C3DD2D1A5CF /* LXSegmentManager */ = {
 			isa = PBXGroup;
 			children = (
-				584B1DB242CE0F5F391E4E4FF1525658 /* LXSegmentManager.framework */,
-				087413FF12A4D8F4A70C67E3DA961AFC /* Pods_LXSegmentManagerModule.framework */,
+				732CDF1854EF46F7CB0B050BF399F9C1 /* ContentView.swift */,
+				1F3F99825956998DA22E23DDA6D40F88 /* PageView.swift */,
+				3C2FE9A446C06FF2D52082600C15073E /* TitleStyle.swift */,
+				E8AF9AE38492F9862B4A63B37346CD25 /* TitleView.swift */,
+				F2046402A6D5FD6A0ECB1BACA78A2A00 /* Pod */,
+				EC77F21C578A1FAFC088144A9418BA58 /* Support Files */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = LXSegmentManager;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				EE6A6B31ADAE1E65F298EB5E6BAE5EDE /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				C04BE7221232002365FDC7D402799C72 /* Products */,
+				CF422155364D8FE1A883F807919EA4FB /* Development Pods */,
+				D29D391E46C8EDFBA15F32BA5B2CD475 /* Frameworks */,
+				79A9B76872F53E838728F96528A6CA45 /* Pods */,
+				8916944771DE99EC1318A9D7B818290E /* Products */,
 				8C37345271AB5DDDEBA5D48B4AC990EB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		CF422155364D8FE1A883F807919EA4FB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				BD2EB50074C56ADCCABB1C3DD2D1A5CF /* LXSegmentManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D29D391E46C8EDFBA15F32BA5B2CD475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A92D3824A8231643B7672AA6FE9EBC5 /* LXColorManager.framework */,
+				5378A749D80F6DD302E5C53F79B5258E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EE6A6B31ADAE1E65F298EB5E6BAE5EDE /* Development Pods */ = {
+		DA9AEE0831A61A14C701701DF10AB73E /* LXColorManager */ = {
 			isa = PBXGroup;
 			children = (
-				8747DF7064CFECF899FAE20047EC15A0 /* LXSegmentManager */,
+				66CFCE7F28CE6881D4CE76A51DA376DA /* LXUIColorExtension.swift */,
+				00FBCF7C94D5798A24FFB85225130FD0 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = LXColorManager;
+			path = LXColorManager;
+			sourceTree = "<group>";
+		};
+		EC77F21C578A1FAFC088144A9418BA58 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B0C8F9DEC8D243401112EAF86059A2E /* LXSegmentManager.modulemap */,
+				38320C97E2D80D4BC2A0555FF8041732 /* LXSegmentManager-dummy.m */,
+				9269C2F4940C2F2124E123139FB28702 /* LXSegmentManager-Info.plist */,
+				522F1E68AE3B7C1D3F7915A264C2155C /* LXSegmentManager-prefix.pch */,
+				B10A9188C82E79BA8F49194F42BF57AE /* LXSegmentManager-umbrella.h */,
+				5A78E8AD364C6F091BEB2C3925BFA347 /* LXSegmentManager.debug.xcconfig */,
+				E617B18E3B0E61B28E9C6F3741234F3E /* LXSegmentManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/LXSegmentManager";
+			sourceTree = "<group>";
+		};
+		F2046402A6D5FD6A0ECB1BACA78A2A00 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				656AF4E822EB763370E29FE70689F496 /* LXSegmentManager.podspec */,
+				6A18973E5095266E386A464A75F0F477 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9EB2C0CD53DF2C829D3D68FC03D15BC4 /* Headers */ = {
+		1F7C5B26FB11744C8A7FBC5C4EF49834 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5557C88A655DE12AA39BDB55CA33412 /* Pods-LXSegmentManagerModule-umbrella.h in Headers */,
+				9D5F958CFDD0733D1BD13A87F8AAA608 /* LXSegmentManager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1A6D37463B262FB99E8F8731F89B193 /* Headers */ = {
+		21C9407A279378B26EA3CD59EC72AE66 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E125BB97FD3C1010905BF67774FA86E /* LXSegmentManager-umbrella.h in Headers */,
+				352A4BC5C317AE38BE9BCE57FBAFEF06 /* LXColorManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE633467B5ACEE1E485C1E90E4209FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3D6FACCA55C5FEDF8C371518858EEC /* Pods-LXSegmentManagerModule-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,35 +291,55 @@
 /* Begin PBXNativeTarget section */
 		3C086DD932B6622A27B924513AB4CC79 /* LXSegmentManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A1F1A92EF11336EA1E4A4E4D21B7444 /* Build configuration list for PBXNativeTarget "LXSegmentManager" */;
+			buildConfigurationList = 59F1F721F9F7219832D7DCAEDE211A26 /* Build configuration list for PBXNativeTarget "LXSegmentManager" */;
 			buildPhases = (
-				F1A6D37463B262FB99E8F8731F89B193 /* Headers */,
-				000CD12543045AF935CC2E69711EC92F /* Sources */,
-				A184AC19BF6C46983E573BCF666E7E77 /* Frameworks */,
-				FA389843BE0B80FBF5B4D01DC051102F /* Resources */,
+				1F7C5B26FB11744C8A7FBC5C4EF49834 /* Headers */,
+				869D1EAB40DE4B1A216FD444EA619AF2 /* Sources */,
+				D7A56F14488111B83F17E15F9E21C002 /* Frameworks */,
+				D89C1D678EE7604DB7AF29CE159BF1DB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				66F372FE94DD913AC2541511CA77FCFC /* PBXTargetDependency */,
 			);
 			name = LXSegmentManager;
 			productName = LXSegmentManager;
 			productReference = 584B1DB242CE0F5F391E4E4FF1525658 /* LXSegmentManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C8332B54C6C9E7AAE123D4FA905C890A /* Pods-LXSegmentManagerModule */ = {
+		B7839D5AE4B3B4FB54245F6CC23BE01D /* LXColorManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86F719553BD0D26C9DC3529C45909653 /* Build configuration list for PBXNativeTarget "Pods-LXSegmentManagerModule" */;
+			buildConfigurationList = A6056454FE8A9441B1688E96E146BF2B /* Build configuration list for PBXNativeTarget "LXColorManager" */;
 			buildPhases = (
-				9EB2C0CD53DF2C829D3D68FC03D15BC4 /* Headers */,
-				7B8A43048EF988D61E5BB8EEBD7F3A52 /* Sources */,
-				FF96E4C1C406960518A797E615C9E165 /* Frameworks */,
-				F9B2BD64F3AE1DCA33F4B0FE331D3A14 /* Resources */,
+				21C9407A279378B26EA3CD59EC72AE66 /* Headers */,
+				6F995DF5BFA3EB70EAAC300F1910016D /* Sources */,
+				A9B5624F0AFE6E050646E140F3E83757 /* Frameworks */,
+				FD2629D6ACE030E4F9D34476734EBE7C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				173B7F50BDAE4FC005EA4ACCF24F6F4C /* PBXTargetDependency */,
+			);
+			name = LXColorManager;
+			productName = LXColorManager;
+			productReference = FD7707783F26052089FC044A21940D16 /* LXColorManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8332B54C6C9E7AAE123D4FA905C890A /* Pods-LXSegmentManagerModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EBCDBB645062CFADA3402F0A1ABFAE /* Build configuration list for PBXNativeTarget "Pods-LXSegmentManagerModule" */;
+			buildPhases = (
+				CCE633467B5ACEE1E485C1E90E4209FC /* Headers */,
+				A5824A6914676BB650999046DCCDE1EF /* Sources */,
+				8B53D444AD36E7C6A6B3BDDB17DAF717 /* Frameworks */,
+				A2A2533089C5BFBCB6B96D70169B2013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A3F8BA9AD0B98AB914E16D7C79F78F5 /* PBXTargetDependency */,
+				3D6AD14BD35201C8EF456D2F98AFB307 /* PBXTargetDependency */,
 			);
 			name = "Pods-LXSegmentManagerModule";
 			productName = "Pods-LXSegmentManagerModule";
@@ -279,10 +364,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C04BE7221232002365FDC7D402799C72 /* Products */;
+			productRefGroup = 8916944771DE99EC1318A9D7B818290E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				B7839D5AE4B3B4FB54245F6CC23BE01D /* LXColorManager */,
 				3C086DD932B6622A27B924513AB4CC79 /* LXSegmentManager */,
 				C8332B54C6C9E7AAE123D4FA905C890A /* Pods-LXSegmentManagerModule */,
 			);
@@ -290,14 +376,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F9B2BD64F3AE1DCA33F4B0FE331D3A14 /* Resources */ = {
+		A2A2533089C5BFBCB6B96D70169B2013 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA389843BE0B80FBF5B4D01DC051102F /* Resources */ = {
+		D89C1D678EE7604DB7AF29CE159BF1DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2629D6ACE030E4F9D34476734EBE7C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -307,42 +400,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		000CD12543045AF935CC2E69711EC92F /* Sources */ = {
+		6F995DF5BFA3EB70EAAC300F1910016D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E84B634FA81B00BD1C019C1BF9C4BA89 /* ContentView.swift in Sources */,
-				4EB4C016890AA76A3B6BEF92797E49A4 /* LXSegmentManager-dummy.m in Sources */,
-				5793FD80B23CFC44BB7BA63A7C0B406C /* PageView.swift in Sources */,
-				FFA26421DC851E983F9BF8D0B61AF23F /* TitleStyle.swift in Sources */,
-				037807718ACA9210675A7BAD8B343B87 /* TitleView.swift in Sources */,
-				B24EBB238CB11B928E79D210662C4AEA /* UIColor+Extension.swift in Sources */,
+				3AFE45FBE9E5AF52B16477005A43AB54 /* LXColorManager-dummy.m in Sources */,
+				648A7B8A45D81070610B7F8C7E3C68EF /* LXUIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B8A43048EF988D61E5BB8EEBD7F3A52 /* Sources */ = {
+		869D1EAB40DE4B1A216FD444EA619AF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3A067C3078D5E2CE585E7798CC19FD6 /* Pods-LXSegmentManagerModule-dummy.m in Sources */,
+				0655C4693F7589816710F1AAC6AD4934 /* ContentView.swift in Sources */,
+				0799A6A20D0BCD4C309B161798FA52D8 /* LXSegmentManager-dummy.m in Sources */,
+				6D6245B8A5B8B96F61791248D37A9EA6 /* PageView.swift in Sources */,
+				98D17FDB6398B956E733137096197BD0 /* TitleStyle.swift in Sources */,
+				55716F26ED993C541E05EA6C9DB47A60 /* TitleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5824A6914676BB650999046DCCDE1EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA30DB2B2C9EB97B4706C29F35BD4FA4 /* Pods-LXSegmentManagerModule-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		173B7F50BDAE4FC005EA4ACCF24F6F4C /* PBXTargetDependency */ = {
+		3D6AD14BD35201C8EF456D2F98AFB307 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LXSegmentManager;
 			target = 3C086DD932B6622A27B924513AB4CC79 /* LXSegmentManager */;
-			targetProxy = B475D40C4F7E6B6AD9F472CBB96B7FE7 /* PBXContainerItemProxy */;
+			targetProxy = 6B5441524CF561A08F3D807B639D0161 /* PBXContainerItemProxy */;
+		};
+		66F372FE94DD913AC2541511CA77FCFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LXColorManager;
+			target = B7839D5AE4B3B4FB54245F6CC23BE01D /* LXColorManager */;
+			targetProxy = 173A915C99322284E4C4355B16F436C5 /* PBXContainerItemProxy */;
+		};
+		8A3F8BA9AD0B98AB914E16D7C79F78F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LXColorManager;
+			target = B7839D5AE4B3B4FB54245F6CC23BE01D /* LXColorManager */;
+			targetProxy = C5D19183FCF3EF77BB1BCA40807C993C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		78D21D0FB239126A279E163DD6F59EC7 /* Debug */ = {
+		02513922925BEBE14AAEB1CBC682EC0A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D50A61349902E7F344DA05F8FF0329C /* LXSegmentManager.debug.xcconfig */;
+			baseConfigurationReference = 5A78E8AD364C6F091BEB2C3925BFA347 /* LXSegmentManager.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -369,6 +482,190 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		066D10AD0E69BBD0B70DF14BEA668AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8924C77BA18E8291C7A2655C6E7DAFBE /* Pods-LXSegmentManagerModule.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LXSegmentManagerModule/Pods-LXSegmentManagerModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LXSegmentManagerModule/Pods-LXSegmentManagerModule.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		164E6B4F3829C0B004DEFCF9B2B3D1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E3B6263C7488CFF67398095582F371 /* LXColorManager.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXColorManager/LXColorManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXColorManager/LXColorManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LXColorManager/LXColorManager.modulemap";
+				PRODUCT_MODULE_NAME = LXColorManager;
+				PRODUCT_NAME = LXColorManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B7553F560817490E3D0FECCC191BBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 380197759C9C50C46B5A4067A5063692 /* LXColorManager.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXColorManager/LXColorManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXColorManager/LXColorManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LXColorManager/LXColorManager.modulemap";
+				PRODUCT_MODULE_NAME = LXColorManager;
+				PRODUCT_NAME = LXColorManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7179802BD0C30FBB1819BF44B499472F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E617B18E3B0E61B28E9C6F3741234F3E /* LXSegmentManager.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXSegmentManager/LXSegmentManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXSegmentManager/LXSegmentManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LXSegmentManager/LXSegmentManager.modulemap";
+				PRODUCT_MODULE_NAME = LXSegmentManager;
+				PRODUCT_NAME = LXSegmentManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8405390646E8B1BC45AEB87925E3C16E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9C60DEF51685FDDD9CDA5A60EF9749 /* Pods-LXSegmentManagerModule.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LXSegmentManagerModule/Pods-LXSegmentManagerModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LXSegmentManagerModule/Pods-LXSegmentManagerModule.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -436,119 +733,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		B45D6AC5C386D7CBAC518FA1AE3DD0BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8924C77BA18E8291C7A2655C6E7DAFBE /* Pods-LXSegmentManagerModule.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LXSegmentManagerModule/Pods-LXSegmentManagerModule-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LXSegmentManagerModule/Pods-LXSegmentManagerModule.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BE29E088E746C258EE00063E58FF1BFB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 773A56BBE1C2334D8F0EB20B103837C5 /* LXSegmentManager.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LXSegmentManager/LXSegmentManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LXSegmentManager/LXSegmentManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/LXSegmentManager/LXSegmentManager.modulemap";
-				PRODUCT_MODULE_NAME = LXSegmentManager;
-				PRODUCT_NAME = LXSegmentManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E91FE8BACDACBA3D45EFA3E0533CB387 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB9C60DEF51685FDDD9CDA5A60EF9749 /* Pods-LXSegmentManagerModule.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LXSegmentManagerModule/Pods-LXSegmentManagerModule-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LXSegmentManagerModule/Pods-LXSegmentManagerModule.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -624,20 +808,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86F719553BD0D26C9DC3529C45909653 /* Build configuration list for PBXNativeTarget "Pods-LXSegmentManagerModule" */ = {
+		59F1F721F9F7219832D7DCAEDE211A26 /* Build configuration list for PBXNativeTarget "LXSegmentManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E91FE8BACDACBA3D45EFA3E0533CB387 /* Debug */,
-				B45D6AC5C386D7CBAC518FA1AE3DD0BA /* Release */,
+				02513922925BEBE14AAEB1CBC682EC0A /* Debug */,
+				7179802BD0C30FBB1819BF44B499472F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A1F1A92EF11336EA1E4A4E4D21B7444 /* Build configuration list for PBXNativeTarget "LXSegmentManager" */ = {
+		60EBCDBB645062CFADA3402F0A1ABFAE /* Build configuration list for PBXNativeTarget "Pods-LXSegmentManagerModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78D21D0FB239126A279E163DD6F59EC7 /* Debug */,
-				BE29E088E746C258EE00063E58FF1BFB /* Release */,
+				8405390646E8B1BC45AEB87925E3C16E /* Debug */,
+				066D10AD0E69BBD0B70DF14BEA668AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6056454FE8A9441B1688E96E146BF2B /* Build configuration list for PBXNativeTarget "LXColorManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B7553F560817490E3D0FECCC191BBF4 /* Debug */,
+				164E6B4F3829C0B004DEFCF9B2B3D1A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -6,6 +6,7 @@
 //  Copyright © 2020 李响. All rights reserved.
 //
 import UIKit
+import LXColorManager
 
 public struct  TitleStyle {
     
