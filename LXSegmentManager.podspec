@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LXSegmentManager"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.summary      = "LXSegmentManager"
 
   # This description is used to generate tags and improve search results.
@@ -101,6 +101,7 @@ Pod::Spec.new do |spec|
 
     spec.source_files   = 'LXSegmentManager/LXSegment/*.swift'
     spec.dependency 'LXColorManager'
+    spec.dependency 'LXFitManager'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

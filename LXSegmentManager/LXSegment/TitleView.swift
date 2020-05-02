@@ -6,14 +6,16 @@
 //  Copyright © 2020 李响. All rights reserved.
 //
 import UIKit
+import LXFitManager
 
 public protocol TitleViewDelegate: AnyObject {
     func titleView(_ titleView: TitleView, targetIndex: Int)
 }
 
+// MARK:- TitleView
 public class TitleView: UIView {
     
-    weak var delegate: TitleViewDelegate?
+    public weak var delegate: TitleViewDelegate?
     
     fileprivate var titles: [String]
     fileprivate var style: TitleStyle
@@ -30,11 +32,12 @@ public class TitleView: UIView {
     fileprivate lazy var bottomLine: UIView = {
         let bottomLine = UIView()
         bottomLine.backgroundColor = self.style.scrollLineColor
-        bottomLine.frame.size.height = self.style.scrollLineHeight
-        bottomLine.frame.origin.y = self.bounds.height - self.style.scrollLineHeight
+        bottomLine.frame.size.height = LXFit.fitFloat(self.style.scrollLineHeight)
+        bottomLine.frame.origin.y = self.bounds.height - LXFit.fitFloat(self.style.scrollLineHeight)
         return bottomLine
     }()
     
+    /// 指定构造器
    public init(frame: CGRect, titles: [String], style: TitleStyle) {
         self.titles = titles
         self.style = style
@@ -46,7 +49,7 @@ public class TitleView: UIView {
     }
 }
 
-
+// MARK:- TitleView
 extension TitleView {
     fileprivate func setupUI() {
         //添加UIScrollVIew
@@ -64,12 +67,13 @@ extension TitleView {
         }
     }
     
+    /// 创建title
     private func setupTitleLabels() {
         for (i, title) in titles.enumerated() {
             let titleLabel = UILabel()
             
             titleLabel.isUserInteractionEnabled = true
-            titleLabel.font = UIFont.systemFont(ofSize: style.fontSize)
+            titleLabel.font = style.titleFont.fitFont
             titleLabel.text = title
             titleLabel.tag = i
             titleLabel.textAlignment = .center
@@ -83,6 +87,7 @@ extension TitleView {
         }
     }
     
+    /// 设置title尺寸
     private func setupTitleLabelsFrame() {
         let count = titles.count
         
@@ -92,43 +97,42 @@ extension TitleView {
             var x: CGFloat = 0
             let y: CGFloat = 0
 
-            
+            w = (titles[i] as NSString).boundingRect(with: CGSize(width: CGFloat(MAXFLOAT), height: 0), options: .usesLineFragmentOrigin, attributes: [NSAttributedString.Key.font: label.font!], context: nil).width
             if style.isScrollEnable { // 可以滚动
-                w = (titles[i] as NSString).boundingRect(with: CGSize(width: CGFloat(MAXFLOAT), height: 0), options: .usesLineFragmentOrigin, attributes: [NSAttributedString.Key.font: label.font!], context: nil).width
                 if i == 0 {
-                    x = style.itemMargin * 0.5
+                    x = CGFloat(style.itemMargin) * 0.5
                     if style.isShowScrollLine {
                         bottomLine.frame.origin.x = x
                         bottomLine.frame.size.width = w
                     }
                 } else {
                     let preLabel = titleLabels[i - 1]
-                    x = preLabel.frame.maxX + style.itemMargin
+                    x = preLabel.frame.maxX + LXFit.fitFloat(style.itemMargin)
                 }
             } else { // 不能滚动
-                w = bounds.width / CGFloat(count)
-                x = w * CGFloat(i)
+               let margin = (bounds.width - CGFloat(count) * w) / CGFloat(count * 2)
+                x = margin + (w + margin * 2) * CGFloat(i)
                 
                 if i == 0 && style.isShowScrollLine {
-                    bottomLine.frame.origin.x = 0
+                    bottomLine.frame.origin.x = margin
                     bottomLine.frame.size.width = w
                 }
             }
             label.frame = CGRect(x: x, y: y, width: w, height: h)
-            
             
             if style.isTransformScale {
                 label.transform = CGAffineTransform(scaleX: (i == 0) ? (1.0 + style.transformScale) : 1.0, y: (i == 0) ? (1.0 + style.transformScale) : 1.0)
             }
         }
         
-        scrollView.contentSize = style.isScrollEnable ? CGSize(width: titleLabels.last!.frame.maxX + style.itemMargin * 0.5, height: 0): CGSize.zero
+        scrollView.contentSize = style.isScrollEnable ? CGSize(width: titleLabels.last!.frame.maxX + LXFit.fitFloat(style.itemMargin) * 0.5, height: 0): CGSize.zero
     }
 }
 
 
 // MARK:- 监听事件
 extension TitleView {
+    /// title点击事件
     @objc fileprivate func titleLabelClick(_ tapGes: UITapGestureRecognizer) {
 
         let targetLabel = tapGes.view as! UILabel
@@ -143,6 +147,7 @@ extension TitleView {
         delegate?.titleView(self, targetIndex: currentIndex)
     }
     
+    /// 调整title
     fileprivate func adjustTitleLabel(targetIndex: Int) {
         
         if targetIndex == currentIndex { return }
@@ -182,7 +187,8 @@ extension TitleView {
         }
     }
     
-    fileprivate func adjustScrollLine(targetLabel:UILabel) {
+    /// 调整line尺寸
+    fileprivate func adjustScrollLine(targetLabel: UILabel) {
         if style.isShowScrollLine {
             UIView.animate(withDuration: 0.25) {
                 self.bottomLine.frame.origin.x = targetLabel.frame.origin.x
@@ -200,9 +206,7 @@ extension TitleView: ContentViewDelegate {
     }
     
     public func contentView(_ contentView: ContentView, targetIndex: Int, progress: CGFloat) {
-       
         setContentView(of: currentIndex, targetIndex: targetIndex, progress: progress)
-        
     }
 }
 

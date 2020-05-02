@@ -1,6 +1,6 @@
 {
   "name": "LXSegmentManager",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "LXSegmentManager",
   "description": "LXSegmentManager is manager",
   "homepage": "https://github.com/LIXIANGXLee/LXSegmentManagerModule",
@@ -14,11 +14,14 @@
   "swift_versions": "5.0",
   "source": {
     "git": "https://github.com/LIXIANGXLee/LXSegmentManagerModule.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "source_files": "LXSegmentManager/LXSegment/*.swift",
   "dependencies": {
     "LXColorManager": [
+
+    ],
+    "LXFitManager": [
 
     ]
   },

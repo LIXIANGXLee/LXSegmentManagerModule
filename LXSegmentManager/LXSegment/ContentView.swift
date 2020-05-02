@@ -45,6 +45,7 @@ public class ContentView: UIView {
         return collectionView
     }()
     
+    /// 指定构造器
    public init(frame: CGRect, childVcs: [UIViewController], parentVc: UIViewController) {
         self.childVcs = childVcs
         self.parentVc = parentVc
