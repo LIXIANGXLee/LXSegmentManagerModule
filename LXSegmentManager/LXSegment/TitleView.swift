@@ -73,12 +73,11 @@ extension TitleView {
             let titleLabel = UILabel()
             
             titleLabel.isUserInteractionEnabled = true
-            titleLabel.font = style.titleFont.fitFont
             titleLabel.text = title
             titleLabel.tag = i
             titleLabel.textAlignment = .center
             titleLabel.textColor = i == 0 ? style.selectColor: style.normalColor
-            
+            titleLabel.font = i == 0 ? style.selectTitleFont.fitFont : style.titleFont.fitFont
             scrollView.addSubview(titleLabel)
             titleLabels.append(titleLabel)
             
@@ -97,7 +96,7 @@ extension TitleView {
             var x: CGFloat = 0
             let y: CGFloat = 0
 
-            w = (titles[i] as NSString).boundingRect(with: CGSize(width: CGFloat(MAXFLOAT), height: 0), options: .usesLineFragmentOrigin, attributes: [NSAttributedString.Key.font: label.font!], context: nil).width
+            w = (titles[i] as NSString).boundingRect(with: CGSize(width: CGFloat(MAXFLOAT), height: 0), options: .usesLineFragmentOrigin, attributes: [NSAttributedString.Key.font: style.selectTitleFont.fitFont], context: nil).width
             if style.isScrollEnable { // 可以滚动
                 if i == 0 {
                     x = CGFloat(style.itemMargin) * 0.5
@@ -159,6 +158,9 @@ extension TitleView {
         //切换文字的颜色
         targetLabel.textColor = style.selectColor
         sourceLabel.textColor = style.normalColor
+        
+        targetLabel.font = style.selectTitleFont.fitFont
+        sourceLabel.font = style.titleFont.fitFont
         
         //记录下标值
         currentIndex = targetIndex

@@ -22,8 +22,10 @@ public struct  TitleStyle {
     public var normalColor: UIColor = UIColor(r: 0, g: 0, b: 0)
     ///选中后的颜色
     public var selectColor: UIColor = UIColor(r: 255, g: 127, b: 0)
-    ///字体
+    
+    ///字体(isScrollEnable = true 建议默认字体和选中字体大小相等)
     public var titleFont: UIFont = UIFont.systemFont(ofSize: 26, weight: UIFont.Weight.bold)
+    public var selectTitleFont: UIFont = UIFont.systemFont(ofSize: 26, weight: UIFont.Weight.bold)
     
     
     ///是否能滚动

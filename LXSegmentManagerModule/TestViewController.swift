@@ -19,12 +19,14 @@ class TestViewController: UIViewController {
        style.isShowScrollLine = true
 //           style.isTransformScale = true
        
-        style.titleFont = UIFont.systemFont(ofSize: 20)
-       
+        style.titleFont = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.regular)
+        style.selectTitleFont = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.medium)
+        
        // 2.所以的子控制器
        var childVcs = [UIViewController]()
        for _ in 0..<titles.count {
            let vc = aaViewController()
+           vc.view.frame.size.height = 667 - 88 - 83
            vc.view.backgroundColor = UIColor.randomColor()
            childVcs.append(vc)
        }
