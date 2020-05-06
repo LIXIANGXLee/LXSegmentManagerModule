@@ -19,7 +19,7 @@ public struct  TitleStyle {
     
     
     ///默认颜色
-    public var normalColor: UIColor = UIColor.black
+    public var normalColor: UIColor = UIColor(r: 0, g: 0, b: 0)
     ///选中后的颜色
     public var selectColor: UIColor = UIColor(r: 255, g: 127, b: 0)
     ///字体
@@ -35,7 +35,7 @@ public struct  TitleStyle {
     /// 是否有滚动的下划线
     public var isShowScrollLine: Bool = false
     public var scrollLineHeight: CGFloat = 2
-    public var scrollLineColor: UIColor = .orange
+    public var scrollLineColor: UIColor = UIColor(r: 255, g: 127, b: 0)
     
     
     ///是否能缩放效果
