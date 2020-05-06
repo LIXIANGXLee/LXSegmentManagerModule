@@ -45,4 +45,7 @@ public struct  TitleStyle {
     /// 缩放的最大倍数
     public var transformScale: CGFloat = 0.3
     
+    //点击按钮时 内容是否带动画 true 带动画
+    public var contentAnimation: Bool = true
+
 }

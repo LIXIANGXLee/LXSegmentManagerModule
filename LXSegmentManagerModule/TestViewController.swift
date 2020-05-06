@@ -18,7 +18,7 @@ class TestViewController: UIViewController {
        style.isScrollEnable = false
        style.isShowScrollLine = true
 //           style.isTransformScale = true
-       
+        style.contentAnimation = true
         style.titleFont = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.regular)
         style.selectTitleFont = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.medium)
         

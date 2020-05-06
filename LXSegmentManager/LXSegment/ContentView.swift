@@ -23,7 +23,8 @@ public class ContentView: UIView {
     
     fileprivate var startOffsetX: CGFloat = 0
     fileprivate var isForbidScroll: Bool = false
-    
+    fileprivate var style: TitleStyle
+
     
     fileprivate lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -46,9 +47,14 @@ public class ContentView: UIView {
     }()
     
     /// 指定构造器
-   public init(frame: CGRect, childVcs: [UIViewController], parentVc: UIViewController) {
+    public init(frame: CGRect,
+                childVcs: [UIViewController],
+                parentVc: UIViewController,
+                style: TitleStyle = TitleStyle())
+    {
         self.childVcs = childVcs
         self.parentVc = parentVc
+        self.style = style
         super.init(frame: frame)
         
         setupUI()
@@ -166,6 +172,6 @@ extension ContentView: TitleViewDelegate {
         isForbidScroll = true
         
         let indexPath = IndexPath(item: targetIndex, section: 0)
-        collectionView.scrollToItem(at: indexPath, at: .left, animated: false)
+        collectionView.scrollToItem(at: indexPath, at: .left, animated: style.contentAnimation)
     }
 }
