@@ -47,6 +47,7 @@ public class TitleView: UIView {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+ 
 }
 
 // MARK:- TitleView
@@ -66,7 +67,7 @@ extension TitleView {
             scrollView.addSubview(bottomLine)
         }
     }
-    
+  
     /// 创建title
     private func setupTitleLabels() {
         for (i, title) in titles.enumerated() {

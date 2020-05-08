@@ -13,12 +13,12 @@ public class PageView: UIView {
     
     fileprivate var titles: [String]
     fileprivate var childVcs: [UIViewController]
-    fileprivate var parentVc: UIViewController?
+    fileprivate weak var parentVc: UIViewController?
     fileprivate var style: TitleStyle
 
     fileprivate var titleView: TitleView!
     fileprivate var contentView: ContentView!
-    
+
     /// 构造函数
    public init(frame: CGRect, titles: [String], childVcs: [UIViewController], parentVc: UIViewController?, style: TitleStyle) {
         self.titles = titles
@@ -34,12 +34,7 @@ public class PageView: UIView {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-    ///销毁循环引用（在返回界面时调用）
-    public func setDeinit() {
-        contentView.setDeinit()
-        self.parentVc = nil
-    }
+
 }
 
 

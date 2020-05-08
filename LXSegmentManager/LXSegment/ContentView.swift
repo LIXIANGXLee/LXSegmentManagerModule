@@ -19,13 +19,12 @@ public class ContentView: UIView {
     weak var delegate: ContentViewDelegate?
     
     fileprivate var childVcs: [UIViewController]
-    fileprivate var parentVc: UIViewController?
+    fileprivate weak var parentVc: UIViewController?
     
     fileprivate var startOffsetX: CGFloat = 0
     fileprivate var isForbidScroll: Bool = false
     fileprivate var style: TitleStyle
 
-    
     fileprivate lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = self.bounds.size
@@ -63,12 +62,6 @@ public class ContentView: UIView {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-     
-    ///销毁循环引用
-    public func setDeinit() {
-        self.parentVc = nil
-    }
-
 }
 
 
