@@ -19,7 +19,7 @@ public class ContentView: UIView {
     weak var delegate: ContentViewDelegate?
     
     fileprivate var childVcs: [UIViewController]
-    fileprivate var parentVc: UIViewController
+    fileprivate var parentVc: UIViewController?
     
     fileprivate var startOffsetX: CGFloat = 0
     fileprivate var isForbidScroll: Bool = false
@@ -49,7 +49,7 @@ public class ContentView: UIView {
     /// 指定构造器
     public init(frame: CGRect,
                 childVcs: [UIViewController],
-                parentVc: UIViewController,
+                parentVc: UIViewController?,
                 style: TitleStyle = TitleStyle())
     {
         self.childVcs = childVcs
@@ -63,6 +63,12 @@ public class ContentView: UIView {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+     
+    ///销毁循环引用
+    public func setDeinit() {
+        self.parentVc = nil
+    }
+
 }
 
 
@@ -70,7 +76,7 @@ extension ContentView {
     fileprivate func setupUI() {
         //添加子控制器到父控制器中
         for childVc in childVcs {
-            parentVc.addChild(childVc)
+            parentVc?.addChild(childVc)
         }
         
         //添加UICollection
