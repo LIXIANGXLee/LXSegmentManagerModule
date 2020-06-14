@@ -62,7 +62,7 @@ extension PageView {
      
     /// 设置内容
     private func setupContentView() {
-        let contentFrame = CGRect(x: 0, y: titleView.frame.maxY, width: bounds.width, height: bounds.height - titleView.frame.maxY)
+        let contentFrame = CGRect(x: 0, y: titleView.frame.maxY, width: UIScreen.main.bounds.width, height: bounds.height - titleView.frame.maxY)
         contentView = ContentView(frame: contentFrame, childVcs: childVcs, parentVc: parentVc,style: style)
         addSubview(contentView)
         contentView.backgroundColor = UIColor.white

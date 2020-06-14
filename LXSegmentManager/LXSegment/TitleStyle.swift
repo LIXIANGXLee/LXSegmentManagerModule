@@ -15,8 +15,7 @@ public struct  TitleStyle {
     public init() {}
     
     ///默认滚动条高度
-    public var titleHeight: CGFloat = 55
-    
+    public var titleHeight: CGFloat = 55    
     
     ///默认颜色
     public var normalColor: UIColor = UIColor(r: 0, g: 0, b: 0)
