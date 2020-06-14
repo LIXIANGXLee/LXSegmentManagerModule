@@ -30,6 +30,7 @@ extension UIFont {
 extension LXFit {
     public static func fitInt(_ value: Int) -> CGFloat { value|~| }
     public static func fitFloat(_ value: CGFloat) -> CGFloat { return value|~| }
+    public static func fitDouble(_ value: CGFloat) -> Double { return Double(value|~|) }
     public static func fitFoint(_ value: CGPoint) -> CGPoint { value|~| }
     public static func fitSize(_ value: CGSize) -> CGSize { value|~| }
     public static func fitRect(_ value: CGRect) -> CGRect { value|~| }

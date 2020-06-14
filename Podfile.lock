@@ -1,7 +1,7 @@
 PODS:
   - LXColorManager (1.0.0)
-  - LXFitManager (1.0.0)
-  - LXSegmentManager (0.2.1):
+  - LXFitManager (1.1.0)
+  - LXSegmentManager (1.2.3):
     - LXColorManager
     - LXFitManager
 
@@ -19,8 +19,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   LXColorManager: 1e3b3cf605777e0f78eaa4a34ab280eb83c69eb7
-  LXFitManager: e8f88896ba1c848c263c49250b590802a987ab3e
-  LXSegmentManager: 8c642ccf283cbe0a35e634f12900943e40f66072
+  LXFitManager: d76fa8e60a899fccf87c66fe33e19479e1d64906
+  LXSegmentManager: 0da5f1da3afd8fecb22ca392da1a0e7a22e75ecf
 
 PODFILE CHECKSUM: ee788b61eaeca3069571aea2f2c13b970084f6d4
 

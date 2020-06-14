@@ -1,6 +1,6 @@
 {
   "name": "LXSegmentManager",
-  "version": "0.2.1",
+  "version": "1.2.3",
   "summary": "LXSegmentManager",
   "description": "LXSegmentManager is manager",
   "homepage": "https://github.com/LIXIANGXLee/LXSegmentManagerModule",
@@ -14,7 +14,7 @@
   "swift_versions": "5.0",
   "source": {
     "git": "https://github.com/LIXIANGXLee/LXSegmentManagerModule.git",
-    "tag": "0.2.1"
+    "tag": "1.2.3"
   },
   "source_files": "LXSegmentManager/LXSegment/*.swift",
   "dependencies": {

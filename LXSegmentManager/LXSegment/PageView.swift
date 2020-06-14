@@ -54,7 +54,7 @@ extension PageView {
     
      /// 设置标题
     private func setupTitleView() {
-        let titleFrame = CGRect(x: 0, y: 0, width: style.titleTotalWith, height: LXFit.fitFloat(style.titleHeight))
+        let titleFrame = CGRect(x: 0, y: 0, width: LXFit.fitFloat(style.titleTotalWith), height: LXFit.fitFloat(style.titleHeight))
         titleView = TitleView(frame: titleFrame, titles: titles, style: style)
         addSubview(titleView)
         titleView.backgroundColor = UIColor.white
