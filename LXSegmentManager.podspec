@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LXSegmentManager"
-  spec.version      = "1.2.2"
+  spec.version      = "1.2.3"
   spec.summary      = "LXSegmentManager"
 
   # This description is used to generate tags and improve search results.
